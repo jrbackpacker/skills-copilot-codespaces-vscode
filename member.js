@@ -1,13 +1,32 @@
 // Remove the signature declaration
 function skillsMember() {
-    var member = {
-        name: 'John Doe',
-        age: 30,
-        skills: ['JavaScript', 'React', 'Node'],
-        // signature: function() {
-        //     console.log(`${this.name} has ${this.skills.length} skills`);
-        // }
-    };
+    var skills = [
+        {
+            name: 'HTML',
+            level: 80
+        },
+        {
+            name: 'CSS',
+            level: 70
+        },
+        {
+            name: 'Javascript',
+            level: 90
+        },
+        {
+            name: 'jQuery',
+            level: 80
+        },
+        {
+            name: 'React',
+            level: 75
+        },
+        {
+            name: 'NodeJS',
+            level: 80
+        }
+    ];
 
-    return member;
+    return skills;
 }
+  
